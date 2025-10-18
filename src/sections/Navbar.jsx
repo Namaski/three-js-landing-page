@@ -15,7 +15,7 @@ const NavItems = () => {
   )
 }
 
-const navbar = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false)
 
   const toggleMenu = () => setIsOpen(prevIsOpen => !prevIsOpen)
@@ -44,4 +44,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
